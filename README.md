@@ -43,14 +43,9 @@ pip install matplotlib seaborn
 pip install scipy jupyter
 
 # Optional: Install all at once
-pip install pandas numpy scikit-learn xgboost matplotlib seaborn scipy jupyter
+pip install -r requirement.txt
 ```
 
-### 3. Verify Installation
-
-```bash
-python -c "import pandas, numpy, sklearn, xgboost, matplotlib, seaborn; print('All packages installed successfully!')"
-```
 
 ## Project Structure
 
@@ -68,11 +63,11 @@ TakeHomeProject_new/
 
 ```
 
-## Training Pipeline
+## Training/Data Exploration/Segementation Pipeline
 
 ### Step 1: Data Preparation
 
-First, convert the raw data to CSV format:
+First, convert the raw data to CSV format (if the .data and .columns files are not in /source_data, please paste the data file in first):
 
 ```bash
 python convert_to_csv.py
@@ -161,11 +156,6 @@ python occupation_3d_clustering.py
 3. **For memory efficiency:** Use `n_jobs=1` instead of `n_jobs=-1`
 
 ## Model Performance
-
-The trained models typically achieve:
-- **Accuracy:** 80-85%
-- **ROC-AUC:** 85-90%
-- **PR-AUC:** 70-80%
 
 Performance varies based on:
 - Data preprocessing choices
