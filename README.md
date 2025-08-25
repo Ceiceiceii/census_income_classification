@@ -50,7 +50,7 @@ pip install -r requirement.txt
 ## Project Structure
 
 ```
-TakeHomeProject_new/
+census_classification_project/
 ├── README.md                           # This file
 ├── ProjectReport.pdf                   # Project Report
 ├── convert_to_csv.py                   # Data conversion script
