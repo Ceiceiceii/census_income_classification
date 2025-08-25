@@ -52,6 +52,7 @@ pip install -r requirement.txt
 ```
 TakeHomeProject_new/
 ├── README.md                           # This file
+├── ProjectReport.pdf                   # Project Report
 ├── convert_to_csv.py                   # Data conversion script
 ├── simple_downsampled_classifier.py    # Main training script
 ├── model_demo.py                       # Model demonstration script
@@ -59,6 +60,7 @@ TakeHomeProject_new/
 ├── occupation_3d_clustering.py         # Occupation analysis
 ├── census_data.csv                     # Raw data (generated)
 ├── simple_downsampled_model.pkl        # Trained model (generated)
+├── segmentation_plot                   # 3D clustering plot (generated)
 └── eda_plots/                          # EDA visualizations (generated)
 
 ```
