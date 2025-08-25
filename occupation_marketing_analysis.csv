@@ -1,0 +1,15 @@
+major occupation code,avg_age,avg_weeks_worked,high_income_rate,avg_capital_gains,sample_size,cluster
+Executive admin and managerial,41.59,48.88,0.24,322.19,11541,1
+Professional specialty,40.22,46.71,0.21,284.64,13024,0
+Protective services,38.91,46.5,0.14,284.13,1599,0
+Technicians and related support,37.18,47.55,0.11,270.67,2933,0
+Sales,37.04,43.76,0.1,212.34,11350,0
+Precision production craft & repair,38.88,46.07,0.08,268.66,10282,0
+Transportation and material moving,40.03,45.25,0.06,215.57,3932,0
+Farming forestry and fishing,40.76,40.85,0.04,170.42,3066,0
+Adm support including clerical,38.31,45.32,0.03,130.95,14642,0
+Machine operators assmblrs & inspctrs,38.07,44.52,0.03,156.99,6291,0
+Handlers equip cleaners etc,32.76,38.71,0.02,115.21,4078,0
+Not in universe,31.17,1.94,0.01,42.51,97280,0
+Other service,35.35,39.72,0.01,82.02,11990,0
+Private household services,37.66,34.63,0.0,49.08,774,0
