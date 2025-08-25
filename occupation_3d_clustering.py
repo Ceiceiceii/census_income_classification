@@ -9,6 +9,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, QuantileTransformer
 from sklearn.metrics import silhouette_score
 import seaborn as sns
+import os
 
 plt.style.use('seaborn-v0_8')
 RANDOM_STATE = 42
@@ -235,8 +236,12 @@ def create_3d_visualization(cluster_data, clustering_features):
         # Remove legend from 2D projections to avoid clutter with 15 groups
     
     plt.tight_layout()
-    plt.savefig('occupation_3d_clustering.png', dpi=300, bbox_inches='tight')
-    print(" 3D visualization saved as 'occupation_3d_clustering.png'")
+    
+    # Create segmentation_plot directory if it doesn't exist
+    os.makedirs('segmentation_plot', exist_ok=True)
+    
+    plt.savefig('segmentation_plot/occupation_3d_clustering.png', dpi=300, bbox_inches='tight')
+    print(" 3D visualization saved as 'segmentation_plot/occupation_3d_clustering.png'")
     plt.show()
     
     return fig
