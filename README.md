@@ -52,7 +52,7 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn scipy jupyter
 python -c "import pandas, numpy, sklearn, xgboost, matplotlib, seaborn; print('All packages installed successfully!')"
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 TakeHomeProject_new/
@@ -60,11 +60,11 @@ TakeHomeProject_new/
 ├── convert_to_csv.py                   # Data conversion script
 ├── simple_downsampled_classifier.py    # Main training script
 ├── model_demo.py                       # Model demonstration script
-├── data_exploration.py                 # EDA script
+├── data_exploration.py                 # EDA script in python
 ├── occupation_3d_clustering.py         # Occupation analysis
 ├── census_data.csv                     # Raw data (generated)
 ├── simple_downsampled_model.pkl        # Trained model (generated)
-└──eda_plots/                          # EDA visualizations (generated)
+└── eda_plots/                          # EDA visualizations (generated)
 
 ```
 
@@ -83,12 +83,6 @@ python convert_to_csv.py
 - Creates `census_data.csv` file
 - Handles data formatting and basic preprocessing
 
-**Expected Output:**
-```
-Data conversion complete!
-Created: census_data.csv
-Total records: [number] rows, [number] columns
-```
 
 ### Step 2: Train Models
 
