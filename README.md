@@ -2,6 +2,8 @@
 
 This project implements machine learning models to predict whether a person's income exceeds $50K based on census data. The project includes data preprocessing, multiple classifier training (Logistic Regression, Random Forest, XGBoost), and comprehensive analysis tools.
 
+### [Project Report](https://github.com/Ceiceiceii/census_income_classification/blob/main/ProjectReport.pdf)
+
 ## Table of Contents
 
 - [Setup Environment](#setup-environment)
